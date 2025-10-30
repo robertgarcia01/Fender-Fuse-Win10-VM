@@ -9,12 +9,13 @@ Step 3: Create tiny10 Virtual Machine (at least 4g ram, 2 cores, and 20gb hdd). 
 
 Step 4: Get windows 10 23H2 ISO here (this is a modded, not official image but it worked for this purpose): https://archive.org/details/Windows_10_23H2
 
-Step 5: Transfer ISO to Virtual Machine (I used a USB drive and enabled access to the drive in the VM options) and select "mount" when right clicking. 
+Step 5: Transfer ISO to Virtual Machine (I used a USB drive and enabled access to the drive in the VM options). Once inside the VM, right click and select "Mount". Check what drive letter the image was mounted to. 
 
 Step 6: Open Command Prompt with Admin priveliges and type the following command (without the quotes, and change the drive letter to the drive that the ISO was mounted to): 
 
 "DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs"
-(more info available here: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/deploy-net-framework-35-by-using-deployment-image-servicing-and-management--dism?view=windows-11)
+
+(More info available here: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/deploy-net-framework-35-by-using-deployment-image-servicing-and-management--dism?view=windows-11)
 
 Step 7: Wait for .NET to finish installing inside command prompt, then get silverlight.exe from this page or https://download.cnet.com/microsoft-silverlight-64-bit/3000-2378_4-75884713.html (again, I used a USB drive to transfer files between host PC and VM)
 
@@ -24,6 +25,7 @@ From here, all of the dependencies for Fender Fuse have been met. InTheBlues/Gui
 
 Step 9. Download the software for Windows, and transfer the downloaded installer file, as well as any/all presets you want to the VM (again using USB drive). 
 
-Step 10. Run installer. For further information on how to upload multiple presets and other tips, see: https://fender-mustang-amps-and-fuse.fandom.com/wiki/Fender_Fuse_on_Windows_11 (TIP: Your VM may lag if you upload the entire archive into your media library, I just uploaded the InTheBlues and Fender Stock Presets and it works)
+Step 10. Run installer. For further information on how to upload multiple presets and other tips, see: https://fender-mustang-amps-and-fuse.fandom.com/wiki/Fender_Fuse_on_Windows_11 
+        TIP: Your VM may lag if you upload the entire archive into your media library, I just uploaded the InTheBlues and Fender Stock Presets and it works
 
 Step 11. Enjoy! 
