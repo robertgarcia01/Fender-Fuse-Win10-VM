@@ -21,7 +21,7 @@ Step 7: Wait for .NET to finish installing inside command prompt, then get silve
 
 Step 8: Run and finish installing silverlight, then restart the system. 
 
-*From here, all of the dependencies for Fender Fuse have been met. InTheBlues/GuitarPedaldemos.com has an archive of the installer, manuals, and an archive of almost 10K amp preset files. https://guitarpedaldemos.com/fender-fuse-mustang-v2-archive/ *
+*From here, all of the dependencies for Fender Fuse have been met. InTheBlues/GuitarPedaldemos.com has an archive of the installer, manuals, and an archive of almost 10K amp preset files. https://guitarpedaldemos.com/fender-fuse-mustang-v2-archive/*
 
 Step 9. Download the software for Windows, and transfer the downloaded installer file, as well as any/all presets you want to the VM (again using USB drive). 
 
